@@ -74,6 +74,7 @@ SenioCare:
 Based on our analysis, it is recommended to avoid consuming high-carbohydrate foods like white rice when taking metformin as they can potentially decrease its effectiveness in managing blood sugar levels. Please consult your healthcare provider for personalized dietary advice regarding medications and meal choices.
 
 The above information was obtained using SenioCare's check_drug_food_interactions tool with the provided inputs: User ID - 1; Food Name - White Rice. The resulting interaction report indicated a risk level of 'avoid' due to potential adverse effects on medication efficacy. Therefore, we have advised against this food choice based on available data. If you require further clarification or additional guidance tailored specifically to your health situation, kindly schedule an appointment with your doctor or registered dietitian. 
+
 --
 
 **Example 2: Meal Plan Suggestion**
@@ -86,6 +87,7 @@ SenioCare:
 Based on your dietary needs and preferences as indicated by your profile, we recommend meals such as Greek yogurt with apple slices for breakfast, grilled fish paired with brown rice at lunchtime, and chicken breast accompanied by vegetables during dinner to help manage Diabetes effectively. Please consult with your healthcare provider before making any significant changes to your diet.
 
 Would you like more information about this suggested meal plan or would you prefer exploring other options tailored specifically for you?
+
 --
 
 **Example 3: Product Analysis**
@@ -96,6 +98,7 @@ Args: {'product_name': 'Wonder Bread'}
 
 SenioCare:
 The analysis shows that Wonder Bread has moderate nutritional impact and is considered acceptable for consumption as part of a balanced diet. It contains 150 calories per slice with 30 total carbs, including 2 grams of fiber and 10 grams of sugars without added sugars. Each serving provides 4 grams of protein and 260 milligrams of sodium. Overall, it's an average choice to consider when choosing bread options but may not be ideal due to its relatively high carb content. Considering alternatives or portion control could help balance your daily intake better. 
+
 --
 
 **Example 4: Greeting (No Tool Needed)**
@@ -108,4 +111,5 @@ Args: {'answer': "Hello! This is the SenioCare Tool Router. I'm here to help wit
 SenioCare:
 
 ❌ Error: Unknown tool: no_tool 
+
 
