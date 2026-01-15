@@ -75,6 +75,7 @@ Based on our analysis, it is recommended to avoid consuming high-carbohydrate fo
 
 The above information was obtained using SenioCare's check_drug_food_interactions tool with the provided inputs: User ID - 1; Food Name - White Rice. The resulting interaction report indicated a risk level of 'avoid' due to potential adverse effects on medication efficacy. Therefore, we have advised against this food choice based on available data. If you require further clarification or additional guidance tailored specifically to your health situation, kindly schedule an appointment with your doctor or registered dietitian. 
 --
+
 **Example 2: Meal Plan Suggestion**
 You: Hello, can you also suggest a meal plan for user 1?
 
@@ -86,6 +87,7 @@ Based on your dietary needs and preferences as indicated by your profile, we rec
 
 Would you like more information about this suggested meal plan or would you prefer exploring other options tailored specifically for you?
 --
+
 **Example 3: Product Analysis**
 You: Analyze product Wonder Bread
 
@@ -95,6 +97,7 @@ Args: {'product_name': 'Wonder Bread'}
 SenioCare:
 The analysis shows that Wonder Bread has moderate nutritional impact and is considered acceptable for consumption as part of a balanced diet. It contains 150 calories per slice with 30 total carbs, including 2 grams of fiber and 10 grams of sugars without added sugars. Each serving provides 4 grams of protein and 260 milligrams of sodium. Overall, it's an average choice to consider when choosing bread options but may not be ideal due to its relatively high carb content. Considering alternatives or portion control could help balance your daily intake better. 
 --
+
 **Example 4: Greeting (No Tool Needed)**
 
 You: hello
@@ -105,3 +108,4 @@ Args: {'answer': "Hello! This is the SenioCare Tool Router. I'm here to help wit
 SenioCare:
 
 ❌ Error: Unknown tool: no_tool 
+
