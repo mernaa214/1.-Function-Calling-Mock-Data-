@@ -1,0 +1,199 @@
+{
+  "foods": [
+    {
+      "food_id": 1,
+      "food_name": "Wonder Bread",
+      "category": "bread",
+      "calories": 150,
+      "total_carbs": 30,
+      "sugars": 10,
+      "protein": 4,
+      "fiber": 2,
+      "sodium": 260,
+      "tags": ["high-carb", "processed"]
+    },
+    {
+      "food_id": 2,
+      "food_name": "Whole Wheat Bread",
+      "category": "bread",
+      "calories": 120,
+      "total_carbs": 22,
+      "sugars": 3,
+      "protein": 6,
+      "fiber": 4,
+      "sodium": 180,
+      "tags": ["diabetes-friendly", "high-fiber"]
+    },
+    {
+      "food_id": 3,
+      "food_name": "Chicken Breast",
+      "category": "protein",
+      "calories": 200,
+      "total_carbs": 0,
+      "sugars": 0,
+      "protein": 25,
+      "fiber": 0,
+      "sodium": 70,
+      "tags": ["high-protein", "low-carb"]
+    },
+    {
+      "food_id": 4,
+      "food_name": "Grilled Fish",
+      "category": "protein",
+      "calories": 180,
+      "total_carbs": 0,
+      "sugars": 0,
+      "protein": 22,
+      "fiber": 0,
+      "sodium": 90,
+      "tags": ["heart-healthy", "omega-3"]
+    },
+    {
+      "food_id": 5,
+      "food_name": "White Rice",
+      "category": "carbs",
+      "calories": 210,
+      "total_carbs": 45,
+      "sugars": 0,
+      "protein": 4,
+      "fiber": 1,
+      "sodium": 5,
+      "tags": ["high-glycemic"]
+    },
+    {
+      "food_id": 6,
+      "food_name": "Brown Rice",
+      "category": "carbs",
+      "calories": 180,
+      "total_carbs": 38,
+      "sugars": 0,
+      "protein": 5,
+      "fiber": 4,
+      "sodium": 5,
+      "tags": ["diabetes-friendly", "high-fiber"]
+    },
+    {
+      "food_id": 7,
+      "food_name": "Apple",
+      "category": "fruit",
+      "calories": 95,
+      "total_carbs": 25,
+      "sugars": 19,
+      "protein": 0,
+      "fiber": 4,
+      "sodium": 2,
+      "tags": ["natural-sugar", "fiber"]
+    },
+    {
+      "food_id": 8,
+      "food_name": "Banana",
+      "category": "fruit",
+      "calories": 105,
+      "total_carbs": 27,
+      "sugars": 14,
+      "protein": 1,
+      "fiber": 3,
+      "sodium": 1,
+      "tags": ["potassium"]
+    },
+    {
+      "food_id": 9,
+      "food_name": "Greek Yogurt",
+      "category": "dairy",
+      "calories": 100,
+      "total_carbs": 6,
+      "sugars": 4,
+      "protein": 17,
+      "fiber": 0,
+      "sodium": 60,
+      "tags": ["probiotics", "high-protein"]
+    },
+    {
+      "food_id": 10,
+      "food_name": "Fried Potatoes",
+      "category": "fast-food",
+      "calories": 320,
+      "total_carbs": 48,
+      "sugars": 0,
+      "protein": 4,
+      "fiber": 3,
+      "sodium": 400,
+      "tags": ["high-fat", "high-sodium"]
+    }
+  ],
+
+  "users": [
+    {
+      "user_id": 1,
+      "name": "Fatma",
+      "age": 70,
+      "weight": 95,
+      "height": 165,
+      "gender": "Female",
+      "chronic_diseases": ["Diabetes"],
+      "allergies": [],
+      "medications": ["Metformin"]
+    },
+    {
+      "user_id": 2,
+      "name": "Ahmed",
+      "age": 55,
+      "weight": 75,
+      "height": 170,
+      "gender": "Male",
+      "chronic_diseases": ["Hypertension"],
+      "allergies": ["Peanuts"],
+      "medications": ["Amlodipine"]
+    },
+    {
+      "user_id": 3,
+      "name": "Hassan",
+      "age": 68,
+      "weight": 82,
+      "height": 168,
+      "gender": "Male",
+      "chronic_diseases": ["Heart Disease"],
+      "allergies": [],
+      "medications": ["Aspirin"]
+    }
+  ],
+
+  "drugs": [
+    {
+      "drug_name": "Metformin",
+      "avoid_foods": ["White Rice", "Fried Potatoes"],
+      "notes": "High-carb meals may reduce glucose control"
+    },
+    {
+      "drug_name": "Amlodipine",
+      "avoid_foods": ["Grapefruit"],
+      "notes": "Grapefruit increases drug concentration"
+    },
+    {
+      "drug_name": "Aspirin",
+      "avoid_foods": ["Alcohol"],
+      "notes": "Increased risk of stomach bleeding"
+    }
+  ],
+
+  "meal_plans": [
+    {
+      "condition": "Diabetes",
+      "breakfast": ["Greek Yogurt", "Apple"],
+      "lunch": ["Grilled Fish", "Brown Rice"],
+      "dinner": ["Chicken Breast", "Vegetables"]
+    },
+    {
+      "condition": "Hypertension",
+      "breakfast": ["Whole Wheat Bread", "Greek Yogurt"],
+      "lunch": ["Grilled Fish", "Vegetables"],
+      "dinner": ["Chicken Breast", "Brown Rice"]
+    },
+    {
+      "condition": "Heart Disease",
+      "breakfast": ["Apple", "Greek Yogurt"],
+      "lunch": ["Grilled Fish", "Brown Rice"],
+      "dinner": ["Vegetables", "Chicken Breast"]
+    }
+  ]
+}
